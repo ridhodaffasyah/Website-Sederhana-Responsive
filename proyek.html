@@ -1,0 +1,125 @@
+<!-- Nama : Ridho Daffasyah -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pasaredu</title>
+        <link rel="stylesheet" href="proyek.css">
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <header id="header">
+                <div id="logo">
+                    <a href="#">
+                        <img id="header-img" src="assets/pasaredu-logo.png">
+                    </a>
+                </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#login" id="nav-link">Login</a></li>
+                        <li><a href="#signup" id="nav-link">Sign up</a></li>
+                        <li><a href="#tutor" id="nav-link">Tutor</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="drop-button" id="betutor">Jadi pengguna</button>
+                                <div id="isidrop" class="drop-content">
+                                    <!--<a href="#tutor">Tutor</a>
+                                    <a href="#siswa">Murid</a>-->
+                                </div>
+                            </div>    
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>    
+        <main>
+            <div id="content">
+                <h1 id="greet"> Selamat Datang di Pasaredu! </h1>
+                <p> Pasar daring yang memfasilitasi berbagai layanan edukasi dengan menghubungkan tutor dan murid di seluruh Indonesia </p>
+                <img id="bg-home" src="assets/bg-home.png">
+                <form id="form">
+                    <input type="text" placeholder="Masukkan kategori..." name="search" id="search">
+                </form>
+                <h1 id="kategori"> Pilihan Kategori </h1>
+                <section id="pilihan" class="pilihan-kategori">
+                    <div class="grid">
+                        <a href="#" target="_blank" class="pilih-kategori">
+                            <img class="kategori-img" src="assets/math.png" alt="kategori">
+                            <p class="kategori-title"> Matematika </p>
+                        </a>
+                        <a href="#" target="_blank" class="pilih-kategori">
+                            <img class="kategori-img" src="assets/fisika.png" alt="kategori">
+                            <p class="kategori-title-fisika"> Fisika </p>
+                        </a>
+                        <a href="#" target="_blank" class="pilih-kategori">
+                            <img class="kategori-img" src="assets/computer.png" alt="kategori">
+                            <p class="kategori-title"> Komputer </p>
+                        </a>
+                        <a href="#" target="_blank" class="pilih-kategori">
+                            <img class="kategori-img" src="assets/lang.png" alt="kategori">
+                            <p class="kategori-title-asing"> Bahasa Asing </p>
+                        </a>
+                    </div>
+                </section>
+                <section class="pasaredu">
+                    <article id="artikel-pasaredu">
+                        <h1>Kenapa harus menggunakan Pasaredu</h1>
+                        <div id="harga">
+                            <div id="harga-title">
+                                <img id="harga-img" src="assets/harga-icon.png">
+                                <h2>Harga terjangkau</h2>
+                            </div>
+                            <p> Yuk, ikuti berbagai layanan les privat online dengan harga terjangkau yang pastinya gak bikin saldo ATM kamu kering. </p>
+                        </div>
+                        <div id="pilihan-lengkap">
+                            <div id="pilihan-title">
+                                <img id="pilihan-img" src="assets/les-icon.png">
+                                <h2>Pilihan lengkap</h2>
+                            </div>
+                            <p> Kamu mau les apa nih? Les akademik, bahasa, seni, musik, olah raga, bahkan softskill pun ada di sini. Buruan cobain semuanya! </p>
+                        </div>
+                        <div id="cepat-mudah">
+                            <div id="cepat-title">
+                                <img id="cepat-img" src="assets/proses-icon.png">
+                                <h2>Cepat dan Mudah</h2>
+                            </div>
+                            <p> Udah gak jaman mau ikut les aja urusannya ribet banget. Di sini kamu tinggal pilih tutor dan layanan les yang kamu mau, pilih jadwal, chek out, udah deh kamu bisa langsung les dengan tutor pilihan kamu. </p>
+                        </div>
+                        <div id="transaksi">
+                            <div id="transaksi-title">
+                                <img id="transaksi-img" src="assets/transaksi-icon.png">
+                                <h2>Transaksi aman</h2>
+                            </div>
+                            <p> Dengan melakukan transaksi di sini, uang kamu bakal aman banget deh. Uang kamu akan disalurkan ke tutor setelah kamu mengisi rating dan review tutor. </p>
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <aside>
+                <article id="profil">
+                    <h3> Profil saya </h3>
+                    <img id="profil-img" src="assets/ridho.png">
+                    <p>Ridho Daffasyah</p>
+                    <p>Jakarta, 30 Desember 2000</p>
+                    <p>Teknik Informatika, Institut Teknologi Bandung</p>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <div id="page-wrapper-footer">
+                <div id="logo-footer">
+                    <a href="#">
+                        <img id="header-img-footer" src="assets/pasaredu-logo.png">
+                    </a>
+                </div>
+                <ul id="footer-ul">
+                    <li><a href="https://twitter.com/bukanridhokun" id="footer-link"><img id="twitter" src="assets/twitter.png"><h4>Twitter</h4></a></li>
+                    <li><a href="https://web.facebook.com/ridho.daffasyah/" id="footer-link"><img id="facebook" src="assets/facebook.png"><h4>Facebook</h4></a></li>
+                    <li><a href="https://www.instagram.com/ridhodaffasyah/" id="footer-link"><img id="instagram" src="assets/instagram.png"><h4>Instagram</h4></a></li>
+                </ul>
+            </div> 
+        </footer>
+        <script src="proyek.js"></script>
+    </body>
+</html>

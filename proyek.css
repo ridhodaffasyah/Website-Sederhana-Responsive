@@ -1,0 +1,661 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    display: block;
+}
+footer {
+  margin-top: 100px;
+  background-color: gold;
+  min-height: 100px;
+  box-shadow: 0px 0px 2px gray;
+}
+#page-wrapper {
+    position: relative;
+    background-color: white;
+}
+#page-wrapper-footer {
+  position: relative;
+  display: flex;
+  background-color: gold;
+  
+}
+#footer-ul {
+  margin: auto;
+  display: flex;
+}
+#logo-footer {
+  width: 60vw;
+  position: relative;
+  margin-left: -250px;
+  margin-top: 10px;
+}
+#header-img-footer {
+  width: 100%;
+  height: 100%;
+  max-width: 80px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+#twitter , #facebook, #instagram {
+  margin-left: 20px;
+  display: flex;
+}
+#footer-link > h4 {
+  font-weight: normal;
+  margin-left: 60px;
+  margin-top: -20px;
+}
+#footer-link > a, #footer-ul > li{
+  display: flex;
+}
+div {
+  display: block;
+}
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    align-items: center;
+    padding: 0px 0px;
+    min-height: 75px;
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 0px 10px grey;
+    background-color: white;
+}
+@media (max-width: 800px) {
+  header {
+    flex-wrap: wrap;
+    background-color: white;
+    position: relative;
+  }
+}
+#logo {
+    width: 60vw;
+    position: relative;
+    margin-left: -300px;
+}
+#header-img {
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+#nav-bar {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+}
+nav {
+    display: block;
+    background-color: white;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+    list-style-type: disc;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.drop-content {
+  overflow: auto;
+}
+#betutor {
+    margin-top: -10px;
+    background-color: gold;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+#betutor:hover {
+    text-decoration: none;
+    background-color: goldenrod;
+}
+#nav-bar #nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#content {
+    text-align: center;
+    width: 100%;
+}
+#bg-home{
+    max-width: 1366px;
+    width: 100%;
+    height: 100%;
+    margin: 80px auto;
+}
+#greet {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 38px;
+}
+#content > p {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 550;
+    font-size: 20px;
+}
+#form {
+    margin-top: -200px;
+    width: 100%;
+}
+#search {
+    width: 60%;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px;
+    margin: 0;
+}
+#kategori {
+    margin-top: 180px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.pilihan-kategori {
+  text-align: center;
+  padding: 10rem 2rem;
+}
+section {
+  width: 100%;
+}
+.pilihan-kategori a {
+  border-bottom: 5px solid yellow;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 10px;
+}
+.pilihan-kategori a:hover {
+  font-weight: 600;
+}
+.pilihan-kategori p {
+  margin-bottom: 10px;
+}
+.kategori-title-fisika, .kategori-title-asing {
+  margin-top: 10px;
+}
+.pasaredu {
+  border: 1px solid black;
+  width: 95%;
+  margin: 60px auto 50px auto;
+  border-radius: 8px;
+  border-color:dimgray;
+  box-shadow: 0px 0px 5px black;
+  background-color: dimgray;
+}
+#artikel-pasaredu > h1 {
+  text-align: start;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin: 30px 0px 10px 50px;
+  color: white;
+}
+#harga-title, #pilihan-title, #cepat-title, #transaksi-title {
+  text-align: start;
+  margin: 30px 0px 10px 50px;
+  display: flex;
+}
+#harga-title > h2, #pilihan-title > h2 {
+  margin: 10px 0px 10px 20px;
+  color: white;
+  font-size: 20px;
+}
+#cepat-title > h2, #transaksi-title > h2 {
+  margin: 10px 0px 10px 25px;
+  color: white;
+  font-size: 20px;
+}
+#harga, #pilihan-lengkap, #cepat-mudah, #transaksi {
+  text-align: start;
+  width: 95%;
+}
+#harga > p, #pilihan-lengkap > p, #cepat-mudah > p, #transaksi > p {
+  margin: 10px 0px 15px 120px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+#profil {
+  text-align: center;
+  margin: 50px auto 20px auto;
+  border: 1px solid palegoldenrod;
+  width: 30%;
+  border-radius: 10px;
+  background-color: palegoldenrod;
+  box-shadow: 0px 0px 5px gray;
+}
+#profil > h3 {
+  margin-top: 20px;
+}
+#profil > p {
+  font-weight: bold;
+  margin: 5px 0px 20px 0px;
+}
+#profil-img {
+  width: 70%;
+  height: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 900px){
+    header {
+        flex-wrap: wrap;
+        background-color: white;
+        position: relative;
+      }
+    #logo {
+      margin-top: 5px;
+      width: 100%;
+      position: relative;
+      margin-left: 0;
+    }
+    #header-img {
+      margin: auto;
+    }
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px; 
+      background-color: white;
+    }
+    nav li {
+      padding-bottom: 15px;
+      background-color: white;
+    }
+    ul {
+      flex-direction: column;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    #bg-home{
+        max-width: 1366px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    #greet {
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        top: 55%;
+        left: 50%;
+        color: white;
+        letter-spacing: 5px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    #content > p {
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        top: 62%;
+        left: 50%;
+        color: white;
+        width: 75%;
+        letter-spacing: 3px;
+        font-weight: 550;
+        font-size: 10px;
+    }
+    #form {
+        margin-top: -40px;
+        width: 100%;
+    }
+    #search {
+        width: 70%;
+        padding: 3px;
+        border-radius: 10px;
+        border: 2px;
+        margin: 0;
+    }
+    #kategori {
+      margin-top: 100px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 20px;
+      color: black;
+      margin-bottom: 70px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 2rem;
+      width: 70%;
+      max-width: 1280px;
+      margin: -100px auto 0px auto;
+      margin-bottom: 2rem;
+    }
+    .pasaredu {
+      border: 1px solid black;
+      width: 95%;
+      margin: -20px auto 50px auto;
+      border-radius: 8px;
+      border-color:dimgray;
+      box-shadow: 0px 0px 5px black;
+      background-color: dimgray;
+    }
+    #artikel-pasaredu > h1 {
+      text-align: start;
+      letter-spacing: 2px;
+      font-size: 20px;
+      margin: 30px 0px 10px 50px;
+      color: white;
+    }
+    #harga-title, #pilihan-title, #cepat-title, #transaksi-title {
+      text-align: start;
+      margin: 30px 0px 10px 50px;
+      display: flex;
+    }
+    #harga-title > h2, #pilihan-title > h2 {
+      margin: 10px 0px 10px 25px;
+      color: white;
+      font-size: 16px;
+    }
+    #cepat-title > h2, #transaksi-title > h2 {
+      margin: 10px 0px 10px 25px;
+      color: white;
+      font-size: 16px;
+    }
+    #harga, #pilihan-lengkap, #cepat-mudah, #transaksi {
+      text-align: start;
+      width: 95%;
+    }
+    #harga > p, #pilihan-lengkap > p, #cepat-mudah > p, #transaksi > p {
+      margin: 10px 0px 15px 107px;
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    #harga-img, #pilihan-img, #cepat-img, #transaksi-img {
+      width: 8%;
+      height: 8%;
+    }
+    #profil > p {
+      font-weight: bold;
+      font-size: 12px;
+      margin: 5px 0px 20px 0px;
+    }
+    #profil {
+      text-align: center;
+      margin: 50px auto 20px auto;
+      border: 1px solid palegoldenrod;
+      width: 50%;
+      border-radius: 10px;
+      background-color: palegoldenrod;
+      box-shadow: 0px 0px 5px gray;
+    }
+    footer {
+      margin-top: 100px;
+      background-color: gold;
+      min-height: 100px;
+      box-shadow: 0px 0px 2px gray;
+      flex-direction: row;
+    }
+    #page-wrapper {
+        position: relative;
+        background-color: white;
+    }
+    #page-wrapper-footer {
+      position: relative;
+      display: flex;
+      background-color: gold;
+    }
+    #footer-ul {
+      margin: 12px auto 0px auto;
+      display: flex;
+    }
+    #logo-footer {
+      width: 60vw;
+      position: relative;
+      margin-left: -80px;
+      margin-top: 30px;
+    }
+    #header-img-footer {
+      width: 100%;
+      height: auto;
+      max-width: 50px;
+      display: flex;
+      margin: 0px auto 0px auto;
+      justify-content: center;
+      text-align: center;
+    }
+    #twitter , #facebook, #instagram {
+      margin-left: -20px;
+      display: flex;
+      width: 20%;
+      height: 70%;
+    }
+    #footer-link > h4 {
+      font-weight: normal;
+      margin-left: 60px;
+      margin-top: -14px;
+      font-size: 14px;
+    }
+    #footer-link > a, #footer-ul > li{
+      display: flex;
+    }
+}
+@media only screen and (max-width: 1180px) and (min-width: 700px){
+    header {
+        flex-wrap: wrap;
+        background-color: white;
+        position: relative;
+      }
+    #logo {
+      margin-top: 5px;
+      width: 100%;
+      position: relative;
+      margin-left: 0;
+    }
+    #header-img {
+      margin: auto;
+    }
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px; 
+      background-color: white;
+    }
+    nav li {
+      padding-bottom: 15px;
+      background-color: white;
+    }
+    ul {
+      flex-direction: column;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    #bg-home{
+        max-width: 1366px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    #greet {
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        top: 55%;
+        left: 50%;
+        color: white;
+        letter-spacing: 5px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    #content > p {
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        top: 75%;
+        left: 50%;
+        color: white;
+        width: 70%;
+        letter-spacing: 3px;
+        font-weight: 550;
+        font-size: 17px;
+    }
+    #form {
+        margin-top: -40px;
+        width: 100%;
+    }
+    #search {
+        width: 60%;
+        padding: 2px;
+        border-radius: 10px;
+        border: 2px;
+        margin: 0;
+    }
+    #kategori {
+      margin-top: 120px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 26px;
+      color: black;
+      margin-bottom: 50px;
+    }
+    .pasaredu {
+      border: 1px solid black;
+      width: 90%;
+      margin: 60px auto 50px auto;
+      border-radius: 8px;
+      border-color:dimgray;
+      box-shadow: 0px 0px 5px black;
+      background-color: dimgray;
+    }
+    #artikel-pasaredu > h1 {
+      text-align: start;
+      letter-spacing: 2px;
+      font-size: 24px;
+      margin: 30px 0px 10px 50px;
+      color: white;
+    }
+    #harga-title, #pilihan-title, #cepat-title, #transaksi-title {
+      text-align: start;
+      margin: 30px 0px 10px 50px;
+      display: flex;
+    }
+    #harga-title > h2, #pilihan-title > h2 {
+      margin: 10px 0px 10px 20px;
+      color: white;
+      font-size: 20px;
+    }
+    #cepat-title > h2, #transaksi-title > h2 {
+      margin: 10px 0px 10px 25px;
+      color: white;
+      font-size: 20px;
+    }
+    #harga, #pilihan-lengkap, #cepat-mudah, #transaksi {
+      text-align: start;
+      width: 95%;
+    }
+    #harga > p, #pilihan-lengkap > p, #cepat-mudah > p, #transaksi > p {
+      margin: 10px 0px 15px 120px;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    #profil > p {
+      font-weight: bold;
+      font-size: 14px;
+      margin: 5px 0px 20px 0px;
+    }
+    footer {
+      margin-top: 100px;
+      background-color: gold;
+      min-height: 100px;
+      box-shadow: 0px 0px 2px gray;
+      flex-direction: row;
+    }
+    #page-wrapper {
+        position: relative;
+        background-color: white;
+    }
+    #page-wrapper-footer {
+      position: relative;
+      display: flex;
+      background-color: gold;
+    }
+    #footer-ul {
+      margin: 10px auto 0px auto;
+      display: flex;
+    }
+    #logo-footer {
+      width: 60vw;
+      position: relative;
+      margin-left: -100px;
+      margin-top: 10px;
+    }
+    #header-img-footer {
+      width: 100%;
+      height: auto;
+      max-width: 70px;
+      display: flex;
+      margin: 10px auto 0px auto;
+      justify-content: center;
+      text-align: center;
+    }
+    #twitter , #facebook, #instagram {
+      margin-left: -20px;
+      display: flex;
+      width: 20%;
+      height: 80%;
+    }
+    #footer-link > h4 {
+      font-weight: normal;
+      margin-left: 60px;
+      margin-top: -15px;
+    }
+    #footer-link > a, #footer-ul > li{
+      display: flex;
+    }
+}
